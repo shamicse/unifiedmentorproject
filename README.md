@@ -25,11 +25,10 @@ The solution includes **EDA notebooks**, a **Streamlit dashboard**, **predictive
 
 ### Clone this repo
 
-Replace `YOUR_USERNAME` with the GitHub account that published the repo:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/workforce_attrition_project.git
-cd workforce_attrition_project
+https://github.com/shamicse/unifiedmentorproject.git
+cd unifiedmentorproject
 ```
 
 ### Setup & run (5 commands)
@@ -134,7 +133,7 @@ workforce_attrition_project/
 
 | Step | Action | Command / File |
 |---|---|---|
-| 1 | Clone from GitHub | `git clone https://github.com/YOUR_USERNAME/workforce_attrition_project.git` |
+| 1 | Clone from GitHub | `git clone https://github.com/shamicse/unifiedmentorproject.git` |
 | 2 | Create virtual environment | `python -m venv venv` then activate (see SETUP.md) |
 | 3 | Install dependencies | `pip install -r requirements.txt` |
 | 4 | Run analysis notebook | `jupyter notebook notebooks/attrition_analysis.ipynb` |
@@ -309,7 +308,7 @@ See **[SETUP.md](SETUP.md)** for copy-paste commands for each step.
 
 ## Author
 
-**[Your Name]** — Unified Mentor Capstone Project  
+**[Shami Akhtar]** — Unified Mentor Capstone Project  
 **Organization context:** Palo Alto Networks  
 **Date:** September 2026
 

@@ -54,34 +54,33 @@ git --version
 
 ### Option A — Clone with HTTPS (easiest)
 
-Replace `YOUR_USERNAME` with the actual GitHub username:
 
 ```powershell
 # Windows PowerShell
 cd Desktop
-git clone https://github.com/YOUR_USERNAME/workforce_attrition_project.git
-cd workforce_attrition_project
+git clone https://github.com/shamicse/unifiedmentorproject.git
+cd unifiedmentorproject
 ```
 
 ```bash
 # macOS / Linux
 cd ~/Desktop
-git clone https://github.com/YOUR_USERNAME/workforce_attrition_project.git
-cd workforce_attrition_project
+git clone https://github.com/shamicse/unifiedmentorproject.git
+cd unifiedmentorproject
 ```
 
 ### Option B — Clone with SSH (if you use SSH keys)
 
 ```bash
-git clone git@github.com:YOUR_USERNAME/workforce_attrition_project.git
-cd workforce_attrition_project
+git https://github.com/shamicse/unifiedmentorproject.git
+cd unifiedmentorproject
 ```
 
 ### Option C — Download ZIP (no Git required)
 
 1. Open your GitHub repo page in a browser
 2. Click **Code** → **Download ZIP**
-3. Extract the ZIP to a folder (e.g. `Desktop/workforce_attrition_project`)
+3. Extract the ZIP to a folder (e.g. `Desktop/unifiedmentorproject`)
 4. Open a terminal in that folder
 
 ---
@@ -104,7 +103,7 @@ cursor .
 **Manual method:**
 1. Open VS Code or Cursor
 2. **File → Open Folder**
-3. Select the `workforce_attrition_project` folder
+3. Select the `unifiedmentorproject` folder
 
 ### Jupyter Notebook
 
@@ -140,7 +139,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### macOS / Linux
 
 ```bash
-cd workforce_attrition_project
+cd unifiedmentorproject
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -318,7 +317,7 @@ If you are the project owner and want to publish this for the first time:
 ### 1. Create a GitHub repository
 
 1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `workforce_attrition_project`
+2. Repository name: `unifiedmentorproject`
 3. Choose **Public** or **Private**
 4. Do **not** initialize with README (you already have one)
 5. Click **Create repository**
@@ -330,13 +329,12 @@ From your project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial commit: workforce attrition analysis project"
+git commit -m "Initial commit:unified mentor project"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/workforce_attrition_project.git
+git remote add origin https://github.com/shamicse/unifiedmentorproject.git
 git push -u origin main
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ### 3. What to include in the repo
 
@@ -352,14 +350,12 @@ Replace `YOUR_USERNAME` with your GitHub username.
 Send them your repo URL:
 
 ```
-https://github.com/YOUR_USERNAME/workforce_attrition_project
+https://github.com/shamicse/unifiedmentorproject.git
 ```
 
 They follow **this SETUP.md** from [Get the Project from GitHub](#get-the-project-from-github) onward.
 
 ### 5. Update README GitHub URL
-
-After publishing, replace `YOUR_USERNAME` in `README.md` with your actual GitHub username so clone links work.
 
 ---
 
@@ -456,5 +452,5 @@ python reports/generate_reports.py
 
 ---
 
-**Author:** [Your Name]  
+**Author:** Shami Akhtar  
 **Project:** Unified Mentor — Palo Alto Networks Attrition Analysis
